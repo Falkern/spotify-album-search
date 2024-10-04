@@ -3,7 +3,7 @@
     <div class="flex mb-4">
       <input
         v-model="searchInput"
-        placeholder="Search For Artist"
+        placeholder="Search For Album"
         class="border-2 border-gray-300 p-2 rounded-l w-full focus:outline-none focus:border-white transition duration-300 bg-black text-white"
         @keyup.enter="search"
       />
